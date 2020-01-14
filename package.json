@@ -1,0 +1,27 @@
+{
+  "name": "mongo-mongoose",
+  "version": "1.0.0",
+  "description": "mongo-mongoose web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lillyportenier/mongo-mongoose.git"
+  },
+  "author": "Lilly Portenier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lillyportenier/mongo-mongoose/issues"
+  },
+  "homepage": "https://github.com/lillyportenier/mongo-mongoose#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.8.7"
+  }
+}
